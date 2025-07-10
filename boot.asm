@@ -52,5 +52,3 @@ message db 'HELLO WORLD', 0
 
 times 510 - ($ - $$) db 0
 dw 0xAA55
-
-;nasm -f bin yourfile.asm -o yourfile.bin
